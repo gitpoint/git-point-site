@@ -39,3 +39,38 @@
     }
   }
 }
+
+.header-logo {
+  box-shadow: 0 8px 16px 0 rgba(83,88,120,.2);
+  animation: bounce 2.5s infinite alternate;
+  -webkit-animation: bounce 2.5s infinite alternate;
+}
+
+.bg-header {
+  box-shadow: 0 5px 8px 0 rgba(72,89,102,.06);
+}
+
+.bg-primary {
+  background-image: linear-gradient(-180deg,#F2F5F8 0,#FAFBFC 99%);
+}
+
+.bg-secondary {
+  background-color: #eef2f5''
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
