@@ -1,0 +1,19 @@
+language: ruby
+rvm:
+  - 2.3.3
+
+before_install:
+  - nvm install 7
+  - npm install
+
+script:
+  - npm run build
+  - npm run precache
+
+deploy:
+  firebase deploy --token $FIREBASE_TOKEN
+
+notifications:
+  email:
+    on_failure: change
+    on_success: change

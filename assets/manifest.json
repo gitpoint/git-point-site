@@ -1,0 +1,16 @@
+{
+  "name": "GitPoint Site",
+  "short_name": "GitPoint Site",
+  "description": "GitPoint for iOS",
+  "theme_color": "#eef2f5",
+  "background_color": "#333",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+      {
+          "src": "/assets/images/logo-black.png",
+          "type": "image/png",
+          "sizes": "512x512"
+      }
+  ]
+}

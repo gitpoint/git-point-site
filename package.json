@@ -1,0 +1,11 @@
+{
+  "name": "gitpoint",
+  "description": "GitHub for iOS",
+  "scripts": {
+    "build": "JEKYLL_ENV=production bundle exec jekyll build",
+    "precache": "sw-precache --config=sw-precache-config.js --root=_site --verbose"
+  },
+  "devDependencies": {
+    "sw-precache": "^5.1.1"
+  }
+}
