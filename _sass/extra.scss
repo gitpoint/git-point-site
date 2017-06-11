@@ -55,8 +55,14 @@
 }
 
 .bg-secondary {
-  background-color: #eef2f5''
+  background-color: #eef2f5;
 }
+
+.bg-tertiary {
+  background-color: #4a5c69;
+}
+
+.vh-85 { height: 85vh; }
 
 @keyframes bounce {
   from {
