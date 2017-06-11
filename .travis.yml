@@ -10,7 +10,7 @@ script:
   - npm run build
   - npm run precache
 
-deploy:
+after_success:
   - firebase deploy --token $FIREBASE_TOKEN
 
 notifications:
