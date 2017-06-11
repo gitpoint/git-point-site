@@ -11,7 +11,7 @@ script:
   - npm run precache
 
 deploy:
-  firebase deploy --token $FIREBASE_TOKEN
+  - firebase deploy --token $FIREBASE_TOKEN
 
 notifications:
   email:
