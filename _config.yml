@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gitpoint.co" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@hdjirdeh"
 github_username:  "housseindjirdeh"
+google_analytics: UA-66348622-4
 
 # Build settings
 markdown: kramdown
