@@ -27,6 +27,7 @@ google_analytics: UA-66348622-4
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
