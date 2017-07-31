@@ -1,4 +1,32 @@
-<footer class="pv4 ph3 ph5-m ph6-l dark-gray bg-primary karla">
-  <div class="f5 f4-ns db tc mt2 mb4">Brought to you by <a class="link fw7 dark-gray dim" href="https://houssein.me/">Houssein Djirdeh</a> and <a class="link fw7 dark-gray dim" href="https://github.com/gitpoint/git-point/graphs/contributors">awesome contributors 🎉</a></div>
-  <div class="f6 f5-ns db tc">Show this project some ❤ on <a class="link fw7 dark-gray dim" href="https://github.com/gitpoint/git-point">GitHub</a></div>
+<footer class="tc pv4 pv4-ns flex flex-column items-center avenir bt b--black-10">
+  <h3 class="f5 f4-ns fw4 dark-gray">Brought to you by</h3>
+
+  <div class="flex flex-column flex-wrap flex-row-ns justify-between center w-100 w-90-l">
+
+    {% for contributor in site.data.contributorResponse.contributors%}
+      {% assign loopindex = forloop.index | modulo: 2 %}
+      {% if loopindex == 1 %}
+        <div class="flex flex-column items-center mv3 w-100 w-50-m w-auto-l">
+          <div>
+            <a class="link" href={{ contributor.profile }}>
+              <img src={{ contributor.avatar_url }} class="grow-large pa1 ba b--black-10 br-100 h3 w3" alt={{ contributor.name }}>
+            </a>
+
+            {% assign name = contributor.name | split:&nbsp; %}
+            <h4 class="f6 mid-gray fw4 ttu tracked">{{ name[0] }}</h4>
+          </div>
+      {% else %}
+          <div>
+            <a class="link" href={{ contributor.profile }}>
+              <img src={{ contributor.avatar_url }} class="grow-large pa1 ba b--black-10 br-100 h3 w3" alt={{ contributor.name }}>
+            </a>
+
+            {% assign name = contributor.name | split:&nbsp; %}
+            <h4 class="f6 mid-gray fw4 ttu tracked">{{ name[0] }}</h4>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+  </div>
 </footer>

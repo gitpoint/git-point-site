@@ -23,6 +23,11 @@ twitter_username: "@hdjirdeh"
 github_username:  "housseindjirdeh"
 google_analytics: UA-66348622-4
 
+# API
+jekyll_get:
+  data: contributorResponse
+  json: 'https://raw.githubusercontent.com/gitpoint/git-point/master/.all-contributorsrc'
+
 # Build settings
 markdown: kramdown
 gems:

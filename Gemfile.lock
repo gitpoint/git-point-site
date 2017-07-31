@@ -6,6 +6,8 @@ GEM
     colorator (1.1.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
+    hash-joiner (0.0.7)
+      safe_yaml
     jekyll (3.3.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -47,13 +49,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  hash-joiner
   jekyll (= 3.3.1)
   jekyll-feed (~> 0.6)
   jekyll-sitemap
   minima (~> 2.0)
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.3.3p222
 
 BUNDLED WITH
    1.14.6
