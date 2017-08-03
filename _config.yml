@@ -16,7 +16,7 @@
 title: GitPoint
 email: houssein.djirdeh@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  GitHub in your pocket. GitPoint is a feature-rich unofficial GitHub iOS client that is 100% free.
+  GitHub in your pocket. GitPoint is a feature-rich unofficial GitHub client that is 100% free. Available for both iOS and Android.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gitpoint.co" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@hdjirdeh"

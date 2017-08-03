@@ -1,6 +1,6 @@
 {
   "name": "gitpoint",
-  "description": "GitHub for iOS",
+  "description": "GitHub in your pocket. GitPoint is a feature-rich unofficial GitHub client that is 100% free. Available for both iOS and Android",
   "scripts": {
     "build": "JEKYLL_ENV=production bundle exec jekyll build",
     "precache": "sw-precache --config=sw-precache-config.js --root=_site --verbose"
