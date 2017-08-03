@@ -1,7 +1,7 @@
 {
   "name": "GitPoint Site",
   "short_name": "GitPoint Site",
-  "description": "GitPoint for iOS",
+  "description": "GitHub in your pocket. GitPoint is a feature-rich unofficial GitHub client that is 100% free. Available for both iOS and Android.",
   "theme_color": "#eef2f5",
   "background_color": "#333",
   "start_url": "/",
