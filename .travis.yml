@@ -11,6 +11,7 @@ script:
   - npm run precache
 
 after_success:
+  - npm install -g firebase-tools
   - firebase deploy --token $FIREBASE_TOKEN
 
 notifications:
