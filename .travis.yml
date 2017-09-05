@@ -5,15 +5,13 @@ rvm:
 before_install:
   - nvm install 7
   - npm install
-  
-install:
-  - npm install -g firebase-tools
 
 script:
   - npm run build
   - npm run precache
 
 after_success:
+  - npm install -g firebase-tools
   - firebase deploy --token $FIREBASE_TOKEN
 
 notifications:
