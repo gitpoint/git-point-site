@@ -6,7 +6,7 @@
     {% for contributor in site.data.contributorResponse.contributors%}
       {% assign loopindex = forloop.index | modulo: 2 %}
       {% if loopindex == 1 %}
-        <div class="flex flex-column items-center mv3 w-100 w-50-m w-auto-l">
+        <div class="flex flex-column items-center mv3 w-100 w-50-m w-20-l">
           <div>
             <a class="link" href={{ contributor.profile }}>
               <img src={{ contributor.avatar_url }} class="grow-large pa1 ba b--black-10 br-100 h3 w3" alt={{ contributor.name }}>
