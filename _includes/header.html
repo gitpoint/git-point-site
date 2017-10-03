@@ -1,4 +1,8 @@
-<div class="vh-85 dt w-100 bg-header bg-primary flex flex-column items-center justify-center">
+<div class="vh-85 dt w-100 bg-header bg-primary flex flex-column items-center justify-center">      
+  <div class="grow mb5 dn db-ns">
+    {% include donate-button.html %}
+  </div>  
+
   <div class="dtc v-mid tc ph3 ph4-l">
     <div class="link header-logo br-100 pa4 ba bg-dark-gray h4 w4 dib flex items-center justify-center" href="/">
       <img class="w4" src="/assets/images/logo-white.png" srcset="/assets/images/logo-white@2x.png 2x" alt="GitPoint">
@@ -20,9 +24,13 @@
         {% include icon-play-store.svg %}
       </a>
     </div>
-  </div>
 
-  <a href="https://github.com/gitpoint/git-point" class="github-corner link" aria-label="View source on GitHub">
-    {% include github-corner.svg %}
-  </a>
+    <div class="grow mt5 db dn-ns">
+      {% include donate-button.html %}
+    </div>  
+
+    <div class="mt4 mt5-ns">
+      {% include github-button.html %}
+    </div>   
+  </div>
 </div>
