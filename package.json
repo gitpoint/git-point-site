@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "npm": ">=5.3"
+  },
   "name": "gitpoint",
   "description": "GitHub in your pocket. GitPoint is a feature-rich unofficial GitHub client that is 100% free. Available for both iOS and Android",
   "scripts": {
@@ -7,5 +10,10 @@
   },
   "devDependencies": {
     "sw-precache": "^5.1.1"
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitpoint/gitpoint-site"
+  },
 }
